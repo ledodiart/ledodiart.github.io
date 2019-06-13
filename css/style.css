@@ -4,6 +4,40 @@
     Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+/*
+CURRENT THEME: Sky
+HEX: #daebe8 LightSky
+HEX: #b7d7e8 MidSky
+HEX: #87bdd8 DeepSky
+HEX: #483D8B DarkSlateBlue
+
+
+
+Possible Alternate Colors:
+
+#6495ED CornflowerBlue
+#00008B Dark Blue
+#483D8B DarkSlateBlue
+#00BFFF DeepSkyBlue
+#87CEFA LightSkyBlue
+#4169E1 RoyalBlue
+
+#DAA520 GoldenRod
+#B8860B DarkGoldenRod
+
+Sky Palettes:
+HEX: #cfe0e8
+HEX: #b7d7e8 MidBlue
+HEX: #87bdd8 Darkest
+HEX: #daebe8 Light
+
+Sand Palettes:
+HEX: #fbefcc
+HEX: #f9ccac
+HEX: #f4a688
+HEX: #e0876a
+*/
+
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
@@ -11,7 +45,7 @@
 	body {
 		margin: 0px;
 		padding: 0px;
-		background: #180E0B;
+		background: #87bdd8;
 		font-family: 'Raleway', sans-serif;
 		font-size: 11pt;
 		color: #000000;
@@ -231,7 +265,7 @@
 
 			#nav li.active a
 			{
-				background: #56c9d6;
+				background: #483D8B;
 				border-radius: 5px;
 				color: #FFF;
 			}
@@ -264,7 +298,7 @@
 	{
 		position: relative;
 		padding: 6em 0em;
-		background: #261611;
+		background: #daebe8;
 		color: #774535;
 	}
 	
@@ -297,7 +331,7 @@
 	{
 		position: relative;
 		padding: 6em 0em;
-		background: #372019;
+		background: #b7d7e8;
 		color: #8c5240;
 	}
 	
@@ -315,7 +349,7 @@
 		position: relative;
 		padding: 3em 0em;
 		text-align: center;
-		color: #774535;
+		color: dark;
 	}
 	
 	#copyright .container
