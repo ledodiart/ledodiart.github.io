@@ -120,7 +120,7 @@
 			text-decoration: none;
 			height: 44px;
 			line-height: 44px;
-			border-top: solid 1px #372019;
+			border-top: solid 1px #87bdd8;
 			padding: 0 1em 0 1em;
 		}
 		
@@ -131,7 +131,7 @@
 			
 			#navPanel .link.depth-0
 			{
-				color: #fff;
+				color: #774535;
 			}
 
 			#navPanel .indent-1 { display: inline-block; width: 1em; }

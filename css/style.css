@@ -6,36 +6,14 @@
 
 /*
 CURRENT THEME: Sky
+Backgrounds=
 HEX: #daebe8 LightSky
 HEX: #b7d7e8 MidSky
 HEX: #87bdd8 DeepSky
 HEX: #483D8B DarkSlateBlue
-
-
-
-Possible Alternate Colors:
-
-#6495ED CornflowerBlue
-#00008B Dark Blue
-#483D8B DarkSlateBlue
-#00BFFF DeepSkyBlue
-#87CEFA LightSkyBlue
-#4169E1 RoyalBlue
-
-#DAA520 GoldenRod
-#B8860B DarkGoldenRod
-
-Sky Palettes:
-HEX: #cfe0e8
-HEX: #b7d7e8 MidBlue
-HEX: #87bdd8 Darkest
-HEX: #daebe8 Light
-
-Sand Palettes:
-HEX: #fbefcc
-HEX: #f9ccac
-HEX: #f4a688
-HEX: #e0876a
+Text=
+HEX: #bc765f LighterBrown
+HEX: #774535 Brown
 */
 
 /*********************************************************************************/
@@ -349,7 +327,7 @@ HEX: #e0876a
 		position: relative;
 		padding: 3em 0em;
 		text-align: center;
-		color: dark;
+		color: #FFF;
 	}
 	
 	#copyright .container
@@ -359,5 +337,5 @@ HEX: #e0876a
 	#copyright a
 	{
 		text-decoration: none;
-		color: #774535 !important;
+		color: #daebe8 !important;
 	}		
