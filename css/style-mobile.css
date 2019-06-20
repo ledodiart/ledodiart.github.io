@@ -169,6 +169,9 @@
 		padding: 3em 0em;
 	}
 
+		#banner > h1 {
+			display: none;
+		}
 
 	.homepage #banner
 	{

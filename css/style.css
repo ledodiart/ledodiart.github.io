@@ -40,6 +40,12 @@ HEX: #774535 Brown
 		font-size: 1.8em;
 	}
 
+	h3 {
+		padding: 0px 0px 10px 0px;
+		letter-spacing: -1px;
+		font-size: 1.4em;
+	}
+
 	p, ol, ul {
 		margin-top: 0px;
 		line-height: 160%;
@@ -262,6 +268,10 @@ HEX: #774535 Brown
 		position: relative;
 		background: #333 url(../images/banner.jpg) no-repeat center;
 		background-size: cover;
+	}
+
+	#banner > h1 {
+		text-align: center;
 	}
 	
 	.homepage #banner
