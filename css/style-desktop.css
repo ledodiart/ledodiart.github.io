@@ -99,6 +99,10 @@
 		padding: 6em 0em;
 	}
 
+		#banner > h1 {
+			font-size: 80px;
+		}
+
 	.homepage #banner
 	{
 		padding: 15em 0em;

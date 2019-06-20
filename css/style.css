@@ -263,6 +263,10 @@ HEX: #774535 Brown
 		background: #333 url(../images/banner.jpg) no-repeat center;
 		background-size: cover;
 	}
+
+	#banner > h1 {
+		text-align: center;
+	}
 	
 	.homepage #banner
 	{
