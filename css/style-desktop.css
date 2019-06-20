@@ -96,6 +96,7 @@
 
 	#banner
 	{
+		background: #333 url(../images/banner-transparent.jpg) no-repeat center;
 		padding: 6em 0em;
 	}
 
