@@ -65,19 +65,19 @@
 					  <div class="mySlides fade">
 						<div class="numbertext">1 / 3</div>
 						<img src="images/portfolio/wide01.jpg" style="width:100%">
-						<div class="text">Watercolors</div>
+						<div class="text caption">Watercolors</div>
 					  </div>
 
 					  <div class="mySlides fade">
 						<div class="numbertext">2 / 3</div>
 						<img src="images/portfolio/wide02.jpg" style="width:100%">
-						<div class="text">Digital</div>
+						<div class="text caption">Digital</div>
 					  </div>
 
 					  <div class="mySlides fade">
 						<div class="numbertext">3 / 3</div>
 						<img src="images/portfolio/wide03.jpg" style="width:100%">
-						<div class="text">Watercolors</div>
+						<div class="text caption">Watercolors</div>
 					  </div>
 
 					  <!-- Next and previous buttons -->
@@ -97,7 +97,7 @@
 
 					<div class="3u">
 						<section>
-							<a class="image full"><img src="images/portfolio/01.jpg" alt=""></a>
+							<a class="image full"><img class="portfolio-image" src="images/portfolio/01.jpg" alt=""></a>
 							<header>
 								<h2>Monograms</h2>
 							</header>
@@ -107,7 +107,7 @@
 
 					<div class="3u">
 						<section>
-							<a class="image full"><img src="images/portfolio/02.jpg" alt=""></a>
+							<a class="image full"><img class="portfolio-image" src="images/portfolio/02.jpg" alt=""></a>
 							<header>
 								<h2>Papercuts</h2>
 							</header>
@@ -117,7 +117,7 @@
 
 					<div class="3u">
 						<section>
-							<a class="image full"><img src="images/portfolio/03.jpg" alt=""></a>
+							<a class="image full"><img class="portfolio-image" src="images/portfolio/03.jpg" alt=""></a>
 							<header>
 								<h2>Ketubot</h2>
 							</header>
@@ -127,12 +127,18 @@
 
 					<div class="3u">
 						<section>
-							<a class="image full"><img src="images/portfolio/04.jpg" alt=""></a>
+							<a class="image full"><img class="portfolio-image" src="images/portfolio/04.jpg" alt=""></a>
 							<header>
 								<h2>Invitations</h2>
 							</header>
 							<p>Pellentesque viverra vulputate enim. Aliquam erat volutpat. Curabitur sem urna, consequat mattis placerat, nulla.</p>				
 						</section>
+					</div>
+
+					<div id="myModal" class="modal">
+						<span class="close">&times;</span>
+						<img class="modal-content" id="img01">
+						<div id="caption"></div>
 					</div>
 
 				</div>
@@ -288,6 +294,7 @@
 		</div>
 
 	<script src="js/image_gallery_behavior.js"></script>
+	<script src="js/image_modals.js"></script>
 	</body>
 
 </html>
